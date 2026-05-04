@@ -1,0 +1,80 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    bg
+ * _CHARSET     UTF-8
+ */
+define('_MI_SYSTEM_NAME', 'Системни');
+define('_MI_SYSTEM_DESC', 'За администрация и настройки на ядрото.');
+define('_MI_SYSTEM_BNAME2', 'Потребителско меню');
+define('_MI_SYSTEM_BNAME3', 'Вход');
+define('_MI_SYSTEM_BNAME4', 'Търси');
+define('_MI_SYSTEM_BNAME5', 'Чакащо съдържание');
+define('_MI_SYSTEM_BNAME6', 'Навигация');
+define('_MI_SYSTEM_BNAME7', 'Информация');
+define('_MI_SYSTEM_BNAME8', 'Кой е на линия');
+define('_MI_SYSTEM_BNAME9', 'Топ автори');
+define('_MI_SYSTEM_BNAME10', 'Нови членове');
+define('_MI_SYSTEM_BNAME11', 'Последни коментари');
+define('_MI_SYSTEM_BNAME12', 'Известия');
+define('_MI_SYSTEM_BNAME13', 'Теми');
+define('_MI_SYSTEM_ADMENU1', 'Банери');
+define('_MI_SYSTEM_ADMENU2', 'Блокове');
+define('_MI_SYSTEM_ADMENU3', 'Групи');
+define('_MI_SYSTEM_ADMENU5', 'Модули');
+define('_MI_SYSTEM_ADMENU6', 'Настройки');
+define('_MI_SYSTEM_ADMENU7', 'Емотикони');
+define('_MI_SYSTEM_ADMENU9', 'Потр. рангове');
+define('_MI_SYSTEM_ADMENU10', 'Промяна на потр.');
+define('_MI_SYSTEM_ADMENU11', 'Имейл до потребители');
+define('_MI_SYSTEM_ADMENU12', 'Търсене на потр.');
+define('_MI_SYSTEM_ADMENU13', 'Снимки');
+define('_MI_SYSTEM_ADMENU14', 'Аватари');
+define('_MI_SYSTEM_ADMENU15', 'Шаблони');
+define('_MI_SYSTEM_ADMENU16', 'Коментари');
+define('_MI_SYSTEM_PREFERENCE_BREAK_GENERAL', 'Общи настройки');
+define('_MI_SYSTEM_PREFERENCE_TIPS', 'Помощ онлайн?');
+define('_MI_SYSTEM_PREFERENCE_TIPS_DSC', 'Това ви дава съвети и онлайн помощ');
+define('_MI_SYSTEM_PREFERENCE_ICONS', 'Икони');
+define('_MI_SYSTEM_PREFERENCE_BREADCRUMB', 'Хлебни трохи');
+define('_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE', 'Активен раздел');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS', 'Активни аватари');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BANNERS', 'Активни банери');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BLOCKSADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_COMMENTS', 'Активни коментари');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_FILEMANAGER', 'Активен файлов мениджър');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_GROUPS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_IMAGES', 'Мениджър на активни изображения');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS', 'Активни потребители на имейл');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MODULESADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_PREFERENCES', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_SMILIES', 'Активни усмивки');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_TPLSETS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERRANK', 'Активни ранги на потребители');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERS', 'Активни потребители');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAINTENANCE', 'Активна поддръжка');
+define('_MI_SYSTEM_PREFERENCE_BREAK_PAGER', 'Брой редове за показване в администрацията');
+define('_MI_SYSTEM_PREFERENCE_AVATARS_PAGER', 'Брой аватари за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_BANNERS_PAGER', 'Брой банери за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_PAGER', 'Брой коментари за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_GROUPS_PAGER', 'Брой групи за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_IMAGES_PAGER', 'Брой изображения за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_SMILIES_PAGER', 'Брой усмивки за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_USERRANKS_PAGER', 'Брой рангове за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_USERS_PAGER', 'Брой потребители за показване на страница');
+define('_MI_SYSTEM_PREFERENCE_BREAK_EDITOR', 'Настройки на редактора');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR', 'Редактор за блокове:');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR', 'Редактор за коментари:');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR', 'Редактор за всички модули:');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_ANONPOST', '');
+define('_MI_SYSTEM_PREFERENCE_REDIRECT', '');
+define('_MI_SYSTEM_PREFERENCE_JQUERY_THEME', 'jQuery тема');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', 'Временно деактивирай');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', 'Имейл');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', 'Лично съобщение');
+define('_MI_SYSTEM_MENUS_ACTIVE', 'Активиране на системата от менюта');
+define('_MI_SYSTEM_MENUS_ACTIVE_DESC', 'Активирайте вградената система за управление на менюто за навигация в сайта');
