@@ -1,0 +1,164 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    bg
+ * _CHARSET     UTF-8
+ */
+define('_AM_SYSTEM_MODULES_ADMIN', 'Администрация на XOOPS модули');
+define('_AM_SYSTEM_MODULES_LIST', 'Списък с модули');
+define('_AM_SYSTEM_MODULES_TOINSTALL', 'Инсталирай модул');
+define('_AM_SYSTEM_MODULES_VALIDATE', 'Потвърди промените');
+define('_AM_SYSTEM_MODULES_SUBMITRES', 'Изпрати резултата');
+define('_AM_SYSTEM_MODULES_RUSUREINS', 'Натиснете бутона по-долу, за да инсталирате този модул');
+define('_AM_SYSTEM_MODULES_RUSUREUNINS', 'Сигурни ли сте, че искате да деинсталирате този модул?');
+define('_AM_SYSTEM_MODULES_RUSUREUPD', 'Натиснете бутона по-долу, за да актуализирате този модул');
+define('_AM_SYSTEM_MODULES_BTOMADMIN', 'Администрация на XOOPS модули');
+define('_AM_SYSTEM_MODULES_INSTALLING', 'Инсталиране ');
+define('_AM_SYSTEM_MODULES_DEACTIVATE', 'Деактивиране ');
+define('_AM_SYSTEM_MODULES_ACTIVATE', 'Активиране ');
+define('_AM_SYSTEM_MODULES_UPDATING', 'Обновяване ');
+define('_AM_SYSTEM_MODULES_INSTALL', 'Инсталиране');
+define('_AM_SYSTEM_MODULES_UNINSTALL', 'Деинсталиране');
+define('_AM_SYSTEM_MODULES_UPDATE', 'Актуализиране');
+define('_AM_SYSTEM_MODULES_VIEWLARGE', 'Голям изглед');
+define('_AM_SYSTEM_MODULES_VIEWLINE', 'Линеен изглед');
+define('_AM_SYSTEM_MODULES_FAILINS', 'Неуспешна инсталация на %s.');
+define('_AM_SYSTEM_MODULES_FAILACT', 'Невъзможно активиране на %s.');
+define('_AM_SYSTEM_MODULES_FAILDEACT', 'Невъзможно деактивиране на %s.');
+define('_AM_SYSTEM_MODULES_FAILUPD', 'Невъзможно обновяване на %s.');
+define('_AM_SYSTEM_MODULES_FAILUNINS', 'Неуспешно деинсталиране на %s.');
+define('_AM_SYSTEM_MODULES_FAILORDER', 'Невъзможно пренареждане на %s.');
+define('_AM_SYSTEM_MODULES_FAILWRITE', 'Невъзможен запис в навигационното меню.');
+define('_AM_SYSTEM_MODULES_ALEXISTS', 'Модул %s вече съществува.');
+define('_AM_SYSTEM_MODULES_OKINS', 'Модул %s е инсталиран успешно.');
+define('_AM_SYSTEM_MODULES_OKACT', 'Модул %s е активиран успешно.');
+define('_AM_SYSTEM_MODULES_OKDEACT', 'Модул %s е деактивиран успешно.');
+define('_AM_SYSTEM_MODULES_OKUPD', 'Модул %s е обновен успешно.');
+define('_AM_SYSTEM_MODULES_OKUNINS', 'Модул %s е деинсталиран успешно.');
+define('_AM_SYSTEM_MODULES_OKORDER', 'Модул %s е променен успешно.');
+define('_AM_SYSTEM_MODULES_MODULE', 'Модул');
+define('_AM_SYSTEM_MODULES_VERSION', 'Версия');
+define('_AM_SYSTEM_MODULES_LASTUP', 'Последна актуализация');
+define('_AM_SYSTEM_MODULES_DEACTIVATED', 'Деактивиран');
+define('_AM_SYSTEM_MODULES_ACTION', 'Действие');
+define('_AM_SYSTEM_MODULES_MENU', 'Меню');
+define('_AM_SYSTEM_MODULES_HIDE', 'Скрий');
+define('_AM_SYSTEM_MODULES_SHOW', 'Покажи');
+define('_AM_SYSTEM_MODULES_DUPEN', 'Дублиран запис в таблицата за модулите!');
+define('_AM_SYSTEM_MODULES_DEACTED', 'Избраният модул е деактивиран. Вече можете безопасно да деинсталирате модула.');
+define('_AM_SYSTEM_MODULES_ACTED', 'Избраният модул е активиран!');
+define('_AM_SYSTEM_MODULES_UPDTED', 'Избраният модул е актуализиран!');
+define('_AM_SYSTEM_MODULES_SYSNO', 'Системният модул не може да бъде деактивиран.');
+define('_AM_SYSTEM_MODULES_STRTNO', 'Този модул в момента, Ви е начална страница, можете да го смените с някои друг по Ваш избор.');
+define('_AM_SYSTEM_MODULES_ORDER', 'Ред');
+define('_AM_SYSTEM_MODULES_ACTIVE', 'Активен');
+define('_AM_SYSTEM_MODULES_INACTIVE', 'Неактивен');
+define('_AM_SYSTEM_MODULES_NOTINSTALLED', 'Не е инсталирано');
+define('_AM_SYSTEM_MODULES_NOCHANGE', 'Без промяна');
+define('_AM_SYSTEM_MODULES_SUBMIT', 'Изпрати');
+define('_AM_SYSTEM_MODULES_CANCEL', 'Отказ');
+define('_AM_SYSTEM_MODULES_DBUPDATE', _AM_SYSTEM_DBUPDATED);
+define('_AM_SYSTEM_MODULES_NEWBLKS', 'New Blocks');
+define('_AM_SYSTEM_MODULES_DEPREBLKS', 'Остарели блокове');
+define('_AM_SYSTEM_MODULES_TABLE_RESERVED', '%s е резервирана таблица!');
+define('_AM_SYSTEM_MODULES_CREATE_TABLES', 'Създаване на таблици...');
+define('_AM_SYSTEM_MODULES_TABLE_CREATED', 'Таблица %s е създадена');
+define('_AM_SYSTEM_MODULES_INSERT_DATA', '&nbsp;&nbsp; Данни са добавени в таблица %s');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', 'Невъзможено добавяне на %s в базата.');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', 'Данните на модула са вмъкнати успешно.');
+define('_AM_SYSTEM_MODULES_MODULEID', 'ID на модул: %s');
+define('_AM_SYSTEM_MODULES_SQL_FOUND', 'SQL файл е намерен в %s ');
+define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', 'SQL файла не е намерен в %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', 'ГРЕШКА: Невъзможно създаване на %s ');
+define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', '%s не е валиден SQL!');
+define('_AM_SYSTEM_MODULES_GROUP_ID', 'ID на група: %s ');
+define('_AM_SYSTEM_MODULES_NAME', 'Име: ');
+define('_AM_SYSTEM_MODULES_VALUE', 'Стойност: ');
+define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', 'Добавяне на шаблони...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'Изтриване на шаблони...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'Актуализиране на шаблони...');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ID', 'ID на шаблон: %s ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'Шаблона %s е добавен в базата');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'ГРЕШКА: Невъзможно добавяне на шаблона %s в базата.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'Шаблона %s е компилиран');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'ГРЕШКА: Грешка при компилиране на шаблона %s ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'Шаблона %s е изтрит от базата');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'ГРЕШКА: Невъзможно изтриване на %s от базата. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'Шаблона %s е добавен в базата. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', 'Шаблона %s е прекомпилиран');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', 'ГРЕШКА: Прекомпилирането на шаблона %s пропадна');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', 'ГРЕШКА: Невъзможно прекомпилиране на %s ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', 'ГРЕШКА: Невъзможно изтриване на стария шаблон %s. Прекратяване на обновяването. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', 'Шаблона %s е обновен. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', 'ГРЕШКА: Невъзможно обновяване на шаблона %s. ');
+define('_AM_SYSTEM_MODULES_BLOCKS_ADD', 'Добавяне на блокове...');
+define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'Изтриване на блокове...');
+define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'Преизграждане на блокове...');
+define('_AM_SYSTEM_MODULES_BLOCK_ID', 'ID на блок: %s ');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'Правата до блока са добавени');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'ГРЕШКА: Невъзможно добавяне на права за блока');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD', 'Блока %s е доабен');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'ГРЕШКА: Невъзможно добавяне на блока %s към базата! ');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'Грешка в базата: %s ');
+define('_AM_SYSTEM_MODULES_BLOCK_CREATED', 'Блока %s е създаден');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE', 'Блока %s е изтрит.');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', 'Шаблона за блок %s е изтрит от базата. ');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', 'ГРЕШКА: Невъзможно изтриване на блока %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', 'ГРЕШКА: Невъзможно изтриване на шаблон за блока %s от базата');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', 'Шаблона за блок %s не се поддържа');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', 'ГРЕШКА: Невъзможно премахване на неподдържаните шаблони за блок.  ');
+define('_AM_SYSTEM_MODULES_BLOCK_UPDATE', 'Блока %s е обновен.');
+define('_AM_SYSTEM_MODULES_GONFIG_ID', 'ID на конфигурация: %s');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', 'Добавяне на конфигурационни данни за модула...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', 'Изтриване на конфигурационните данни за модула...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', 'Данните на модула са актуализирани.');
+define('_AM_SYSTEM_MODULES_CONFIG_ADD', 'Добавени са конфигурационни данни');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', 'Конфигурационните данни %s са добавени в базата');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', 'ГРЕШКА: Невъзможно добавяне на %s в базата. ');
+define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', 'Конфигурационните данни са изтрити от базата. ');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', 'ГРЕШКА: Невъзможно изтриване на конфигурационните данни от базата.');
+define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', 'Задаване на права на групата...');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', 'ГРЕШКА: Невъзможно изтриване на правата на групите ');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', 'Правата на групите са изтрити');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', 'Добавяне на администраторски права за %s');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', 'ГРЕШКА: Невъзможно добавяне на админ. права за %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD', 'Добавени са администраторски права за: %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', 'ГРЕШКА: Невъзможно добавяне на членски права за: %s');
+define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', 'Грешка при изпълнение на %s');
+define('_AM_SYSTEM_MODULES_FAILED_SUCESS', '%s е изпълнено успешно');
+define('_AM_SYSTEM_MODULES_DELETE_ERROR', 'ГРЕШКА: Невъзможно изтриване на %s');
+define('_AM_SYSTEM_MODULES_UPDATE_ERROR', 'ГРЕШКА: Невъзможно обновяване на %s');
+define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', 'Изтриване на таблиците на модула...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', 'Изтриване на коментари...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', 'ГРЕШКА: Невъзможно изтриване на коментарите');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', 'Коментарите са изтрити');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', 'Изтриване на известия...');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', 'ГРЕШКА: Невъзможно изтриване на известията');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', 'Известията са изтрити');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED', 'Таблицата %s е изтрита!');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', 'ГРЕШКА: Невъзможно изтриване на таблицата %s');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'ГРЕШКА: Не е позволено изтриването на таблицата %s !');
+define('_AM_SYSTEM_MODULES_CONFIRM_TIPS', '<ul>
+<li>Проверете всички модификации за проверка.</li>
+</ul>');
+define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'Добавяне на тестови данни');
+define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'Инсталирайте повече модули');
+define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'Администратор на този модул');
+define('_AM_SYSTEM_MODULES_FK_DISABLE', 'Неуспешно деактивиране на проверките на външен ключ');
+define('_AM_SYSTEM_MODULES_FK_ENABLE', 'Неуспешно активиране на проверки на външен ключ');
+define('_AM_SYSTEM_MODULES_DROP_FAIL', 'Неуспешно премахване на таблицата: %s');
+define('_AM_SYSTEM_MODULES_DROP_OK', 'Изпусната таблица: %s');
+
+//2.7.1 backfilled translations
+define('_AM_SYSTEM_MODULES_TIPS', '<ul>
+<li>Ако инсталирате нов модул, не забравяйте да настроите неговите предпочитания, блокове и потребителски права!</li>
+<li>За да скриете модул в блока Главно меню, задайте подредбата на 0.</li>
+<li>Изтрийте неизползваните файлове на модули от сървъра си, за да избегнете проблеми със сигурността и да запазите сайта си защитен.</li>
+<li>За да промените реда на модулите (което ще се отрази в менюто), просто плъзнете и пуснете модулите на желаното място.</li>
+</ul>');
+define('_AM_SYSTEM_MODULES_ORDER0', '(0 = скрий)');
+define('_AM_SYSTEM_MODULES_ERRORSC', 'Грешка(и):');
+define('_AM_SYSTEM_MODULES_LISTUPBLKS', 'Следните блокове ще бъдат актуализирани.<br>Изберете блоковете, чието съдържание (шаблон и опции) може да бъде презаписано.<br>');
+//2.7.1
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_INVALID', ' ERROR: Skipped malformed config entry %s. ');
